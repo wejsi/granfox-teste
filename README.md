@@ -45,4 +45,12 @@ granfox-teste
 > **```npm i```**
 
 ### Para iniciar a aplicação
-> **```npm start```** 
+> **```npm start```**
+
+## Jenkins CI/CD
+> Note que existe o arquivo script Jenkinsfile com a pepiline definindo os Stages principais sendo um para  build e execução de testes unitarios , outro para testes integração e sonar scan e por seguinte o stage para deploy da imagem gerada.
+> Para execução o pepiline seria ativado sempre que houver versionamento na main de forma a ser configurado na ferramenta(Jenskins).
+
+### GITFlow 
+> Por se tratar de uma pessoa apenas desenvolvendo não foi utilizado gitFlow no processo de CD mas para que seja mantido por uma equipe seria importante criar uma branches features para manutenção assim iniciando gitFlow basico realizando codereview e gestão atravez dos pull requests ou merge requests dependendo da ferramente de SCM.
+
