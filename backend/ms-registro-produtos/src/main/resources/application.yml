@@ -1,0 +1,24 @@
+
+server:
+    port: 8088
+spring:
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            database: produtos_app
+    application:
+        name: ms-registro-produtos
+
+springdoc:
+    swagger-ui.path: /swagger-ui-custom.html
+    api-docs.path: /api-docs
+    swagger-ui.operationsSorter: alpha
+    swagger-ui.tagsSorter: alpha
+
+api:
+    version: 1.0-SNAPSHOT
+    tos.uri: terms-of-service
+    server.url: https://www.
+    description: Api criada para cadastrar produtos
+
