@@ -34,8 +34,9 @@ granfox-teste
 
 ### Para queira se conectar com mongo CLI via terminal execute comandos abaixo
 > docker exec -it mongo bash
-                                                                                                                                          ### Classe Main Principal
-| **_Note_** : `ProdutosApplication.java` |
+                                                                                                                                          
+### Classe Main
+> ProdutosApplication.java
 
 
 
