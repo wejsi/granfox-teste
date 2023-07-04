@@ -32,11 +32,10 @@ granfox-teste
 ### Docker-compose inicializará os containers
 > docker-compose up --force-recreate  
 
-Para se conectar com mongo CLI via terminal execute comandos abaixo
+### Para queira se conectar com mongo CLI via terminal execute comandos abaixo
 > docker exec -it mongo bash
-                                                                                                                                          |                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **_Note_** : Classe main principal `ProdutosApplication.java` |
+                                                                                                                                          ### Classe Main Principal
+| **_Note_** : `ProdutosApplication.java` |
 
 
 
